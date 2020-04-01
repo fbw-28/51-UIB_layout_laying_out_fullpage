@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #1a1a1a;
+}
+body {
+    width: 90vw;
+    height: 95vh;
+    margin: auto;
+    background-color: #4b4b4b;
+}
+
+header{
+    background-color: #1a1a1a;
+    height: 5vh;
+}
+
+h1, a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav {
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar > a {
+    color: black;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 7vw;
+    height: 86vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float:left;
+    background-color: whitesmoke;
+    margin-right: 10px;
+}
+.sidebar a {
+    color: black;
+}
+
+main {
+    height: 86vh;
+    width: 80vw;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    flex-basis: 23%;
+/*     height: 25vh; */
+    margin: 5px; 
+}
+
+img {
+    width: 100%;
+    display: flex;
+}
+
+.movie-title {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+/* this is only used in the test.html file */
+.thumbnail {
+    color:white;
+    text-align: center;
+    background-color: black;
+    height: 80%;
+    width: 100%;
+}
