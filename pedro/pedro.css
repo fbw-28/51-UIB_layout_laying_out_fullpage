@@ -31,7 +31,7 @@ body {
 
 .aside {
     background-color: white;
-    width: 15%;
+    width: 110px;
     height: 800px;
     float: left;
     
@@ -46,13 +46,14 @@ p {
 }
 
 .boxes{
-  
    display: flex;
    flex-wrap: wrap;
-   width: 85%;
-   height: 800px;
+   /* width: 600px;
+   height: 800px; */
    justify-content: space-between;
    padding: 20px;
+   margin: 20px;
+   /* flex-basis: 70%; */
    
    
 }
@@ -68,7 +69,7 @@ div img {
      display: flex;
      color: white;
      text-align: center;
-     width: 150px;
+     width: 100%;
      height: 30px;
      background-color: darkcyan;
      align-items: center;
@@ -76,10 +77,12 @@ div img {
      
  }
 
- /* .column {
+ .column {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap; 
    justify-content: flex-start;
-       
- } */
+   flex-basis: 20%;
+   margin: 20px;
+   
+ }
